@@ -1,0 +1,49 @@
+{
+    "jupyter.lab.setting-icon-class": "jp-Xrathus-icon",
+    "jupyter.lab.setting-icon-label": "Xrathus",
+    "title": "Xrathus",
+    "description": "Settings for the Xrathus plugin.",
+    "definitions": {
+        "datasetSearch": {
+            "properties": {
+                "page": {
+                    "type": "number"
+                },
+                "search": {
+                    "type": "string"
+                },
+                "group": {
+                    "type": "string"
+                },
+                "sortBy": {
+                    "type": "string"
+                },
+                "filetype": {
+                    "type": "string"
+                },
+                "license": {
+                    "type": "string"
+                }
+            },
+            "type": "object",
+            "additionalProperties": false
+        }
+    },
+    "properties": {
+        "datasetSearch": {
+            "$ref": "#/definitions/datasetSearch",
+            "title": "Dataset Search parameters",
+            "description": "Current dataset search filters",
+            "default": {
+                "page": 1,
+                "search": "",
+                "group": "",
+                "sortBy": "",
+                "filetype": "",
+                "license": ""
+            }
+        }
+    },
+    "additionalProperties": false,
+    "type": "object"
+}

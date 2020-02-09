@@ -1,0 +1,17 @@
+# npm
+**/lib/
+**/npm_packages/
+**/node_modules/
+**/test/build/*
+**/package-lock.json
+
+# editor
+**/.vscode/
+**/.idea/
+
+# misc
+.DS_Store
+
+*.bundle.*
+*.tsbuildinfo
+*.log*
