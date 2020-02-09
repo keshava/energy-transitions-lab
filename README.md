@@ -1,24 +1,24 @@
-# @xrathus/jupyterlab
+# @sdu/jupyterlab
 
-Official Xrathus extension for JupyterLab.
+Official SDU extension for JupyterLab.
 
 ## Requirements
 
 * JupyterLab >= 1.1.0
-* A Xrathus account for accessing Xrathus API
+* A SDU account for accessing SDU API
 
-To run this extension, you will need to download a Xrathus API token.  You can
-find the token on your [Xrathus account page](https://www.xrathus.com/me/account).
+To run this extension, you will need to download a SDU API token.  You can
+find the token on your [SDU account page](https://www.SDU.com/me/account).
 
 Once you download the token to your local machine, you can drag & drop the
 token onto the settings page of the Xrathus extension for JupyterLab.
 
 ## Overview
 
-Xrathus extension for JupyterLab enables you to browse and download Xrathus
+SDU extension for JupyterLab enables you to browse and download Xrathus
 Datasets for use in your JupyterLab instance.
 
-![Xrathus](XrathusJupyterLab.png 'Xrathus')
+![SDU](SDUJupyterLab.png 'SDU')
 
 ## Getting started
 
@@ -63,7 +63,7 @@ this extension locally.
 #### Requirements
 
 * JupyterLab >= 1.1.0
-* A Xrathus account for accessing Xrathus API
+* A SDU account for accessing Xrathus API
 * [Yarn](https://yarnpkg.com)
 * [Docker](https://www.docker.com)
 
