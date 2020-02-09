@@ -11,7 +11,7 @@ To run this extension, you will need to download a SDU API token.  You can
 find the token on your [SDU account page](https://www.SDU.com/me/account).
 
 Once you download the token to your local machine, you can drag & drop the
-token onto the settings page of the Xrathus extension for JupyterLab.
+token onto the settings page of the SDU extension for JupyterLab.
 
 ## Overview
 
