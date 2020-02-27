@@ -79,7 +79,7 @@ this extension locally.
 # Build All
 > yarn build:all
 
-# Start the docker running JupyterLab with @xrathus/jupyterlab extension
+# Start the docker running JupyterLab with @sdulab/jupyterlab extension
 # Look for the url to access the JupyterLab instance in the console output
 # once the service finishes starting up
 > yarn docker
